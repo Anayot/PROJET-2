@@ -436,24 +436,6 @@ footer{
 
 
 /* #region MEDIA QUERIES */
-    /* #region Between Desktop & Tablet (max 1336px min 1025px) */
-    @media screen and (min-width: 1025px) and (max-width: 1336px){
-        
-        .hebergements-find{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 30px;
-        }
-
-                .activities-offer{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-auto-columns: 297px;
-            gap: 30px;
-        }
-    }
-
-    /* #endregion Between Destop & Tablet (max 1336px min 1025px */
 
     /* #region Medium devices (tablets, less/equal than 1024px) */
     @media screen and (max-width: 1024px){
@@ -514,29 +496,6 @@ footer{
         /* #endregion ACTIVITIES */
     }
     /* #endregion Medium devices (tablets, less/equal than 1024px) */
-
-    /* #region Between Tablet & Mobile (max 869px min 768px) */
-    @media screen and (min-width: 768px) and (max-width: 869px){
-        
-        .hebergements-find{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 30px;
-        }
-
-        .activities-offer{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-auto-columns: 297px;
-            gap: 30px;
-        }
-
-        .card-title{
-            font-size: clamp(14px, 15px, 16px);
-        }
-    }
-
-    /* #endregion Between Tablet & Mobile (max 869px min 768px */
 
     /* #region Small devices (phones, less than 768px) */
     @media screen and (max-width: 767.98px){
